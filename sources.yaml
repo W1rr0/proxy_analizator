@@ -1,0 +1,15 @@
+sources:
+  # Пример GitHub-репозитория
+  - type: github
+    repo: FreeFolksOn/abc-configs-free-vpn-proxy-list
+    scan_mode: tree
+
+  # Пример Telegram-канала
+  - type: telegram
+    channel: abc_configs
+    max_pages: 5
+
+  # Пример прямого URL
+  - type: raw_url
+    url: https://vpn-keys.ru
+    name: vpn-keys.ru
